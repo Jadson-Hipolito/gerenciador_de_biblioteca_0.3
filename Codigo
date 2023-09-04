@@ -1,0 +1,34 @@
+void logar(){
+  int login=0;
+  int login_cadast=0;
+  char mail=0;
+  while (login==0) {
+   printf("Digite 1 para botar seu Email ou Gmail, 2 para botar sua senha, 3 para logar ou 0 para voltar");
+   scanf("%d", &login);
+   switch (login) {
+     case 1:
+      printf("Digite o Email");
+      scanf("%d", &mail);
+   }
+  }
+}  
+
+int main() {
+  int func_user;
+  while (1==1) {
+   printf("\n████████████████████████████████████████████████████████████████████████████\n");
+   printf("████████████████████████████████████████████████████████████████████████████\n");
+   printf("████████████████████████████████<Biblioteca>████████████████████████████████\n");
+   printf("████████████████████████████████████████████████████████████████████████████\n");
+   printf("████████████████████████████████████████████████████████████████████████████\n\n");
+   printf("Escolha 1 para funcionario ou 2 para cliente:\n");
+  while(func_user != 1 & func_user!=2) {
+    scanf("%d", &func_user);
+    switch(func_user){
+      case 1:
+       logar();
+      
+  }
+  }
+   return 0;
+            }}
